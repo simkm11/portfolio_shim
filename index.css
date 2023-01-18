@@ -4,7 +4,7 @@ body {
 }
 
 a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:hover{
@@ -39,7 +39,7 @@ ul{
 .site_name{
     margin: 0;
     font-size: 30px;
-    color: coral;
+    color: rgb(10, 3, 0);
 }
 
 .nav_menu{
@@ -60,35 +60,48 @@ ul{
     font-size: 55px;
 }
 .sample{
-    background-color:coral;
-    -webkit-text-stroke: 1px black;
+    background-color:rgba(253, 241, 1, 0.937);
+    -webkit-text-stroke: 1px skyblue;
 }
 
 .sample:hover{
     background: transparent;
-    color:blueviolet;
-    -webkit-text-stroke: 1px black;
+    color:rgb(255, 41, 234);
+    -webkit-text-stroke: 1px rgb(221, 43, 43);
     transition: none;
 }
 .highlight{
     color: white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px rgb(249, 11, 11);
 }
 
 .highlight:hover{
     background: transparent;
-    background-color: aqua;
+    background-color: rgb(10, 233, 51);
     transition: none;
 }
 
 .type01{
-    color: white;
-    -webkit-text-stroke: 1px black;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px yellow;
+}
+.type03{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px blue;
+}
+.type04{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px green;
 }
 .type01:hover{
-    background-color: brown;
+    background-color: blue;
 }
-
+.type03:hover{
+    background-color: rgb(255, 0, 0);
+}
+.type04:hover{
+    background-color:yellow;
+}
 .eng_comment{
     font-weight: 400;
     font-size: 15px;
@@ -102,7 +115,7 @@ ul{
 .recent_menu{
     font-size: 15px;
     font-weight: 700;
-    color: coral;
+    color: rgb(6, 2, 0);
 
     text-align: right;
     margin-top: 100px;
@@ -193,7 +206,7 @@ a[title="life_icons"]:hover{
     margin-bottom: 30px;
 }
 .article_name:hover{
-    color: pink;
+    color: rgb(105, 220, 254);
     -webkit-text-stroke: 1px black;
 }
 .article_comment{
@@ -215,4 +228,33 @@ a[title="life_icons"]:hover{
 
 #name02{
 font-size: 45px;
+}
+
+.hover01:hover{
+    color: red;
+    -webkit-text-stroke: 1px black;
+}
+.hover02:hover{
+    color: coral;
+    -webkit-text-stroke: 1px black;
+}
+.hover03:hover{
+    color: yellow;
+    -webkit-text-stroke: 1px black;
+}
+.hover04:hover{
+    color: green;
+    -webkit-text-stroke: 1px black;
+}
+.hover05:hover{
+    color: rgba(0, 47, 255, 0.69);
+    -webkit-text-stroke: 1px black;
+}
+.hover06:hover{
+    color: rgb(14, 2, 148);
+    -webkit-text-stroke: 1px black;
+}
+.hover07:hover{
+    color: blueviolet;
+    -webkit-text-stroke: 1px black;
 }
