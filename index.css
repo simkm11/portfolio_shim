@@ -1,0 +1,218 @@
+body {
+
+    background: rgb(226, 226, 226);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    transition: 0.4s;
+}
+.frame {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
+
+/* nav *//* nav *//* nav *//* nav *//* nav */
+
+.front_nav{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 20px;
+}
+ul{
+    margin: 0;
+}
+
+.site_name{
+    margin: 0;
+    font-size: 30px;
+    color: coral;
+}
+
+.nav_menu{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* front_main *//* front_main *//* front_main */
+
+.front_main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.kor_comment{
+    font-weight: 600;
+    font-size: 55px;
+}
+.sample{
+    background-color:coral;
+    -webkit-text-stroke: 1px black;
+}
+
+.sample:hover{
+    background: transparent;
+    color:blueviolet;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+.highlight{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover{
+    background: transparent;
+    background-color: aqua;
+    transition: none;
+}
+
+.type01{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+.type01:hover{
+    background-color: brown;
+}
+
+.eng_comment{
+    font-weight: 400;
+    font-size: 15px;
+    font-style:italic;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* recent_menu *//* recent_menu *//* recent_menu */
+.recent_menu{
+    font-size: 15px;
+    font-weight: 700;
+    color: coral;
+
+    text-align: right;
+    margin-top: 100px;
+}
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top: 3px solid black;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.contact{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(11, 11, 11);
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.links>a{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.front_footer>p{
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+    margin:0;
+}
+
+.footer_comment{
+    text-align: center;
+}
+a[title="life_icons"]:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* RECENT WORK *//* RECENT WORK *//* RECENT WORK *//* RECENT WORK */
+
+.recent_works{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    /* display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    align-items: center; */
+
+        /* display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: auto;
+    align-items: center; */
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: auto;
+    align-items: center;
+    grid-template-columns: repeat(2, 100%);
+    width: min-content;
+    margin-top: 50px;
+}
+
+.thumbnail{
+    width: 600px;
+}
+
+.article_info{
+    /* margin: 0px 20px; */
+    margin: 0;
+}
+
+.article_name{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.article_name:hover{
+    color: pink;
+    -webkit-text-stroke: 1px black;
+}
+.article_comment{
+    font-size: 16px;
+    font-weight: 100;
+}
+.more{
+    width: content;
+    height: content;
+    font-size: 13px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+#name01{
+    font-size: 45px;
+}
+
+#name02{
+font-size: 45px;
+}
